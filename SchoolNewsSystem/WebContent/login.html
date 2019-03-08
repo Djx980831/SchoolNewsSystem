@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+		<title>校园新闻网管理系统</title>
+		<style>
+			body{
+				/*background: #113465;*/
+				/*background-image:url(img/wenli.png);*/
+			}
+			.loginTop{
+				padding-top: 5px;
+				height: 90px;
+				width: 65%;
+				/*border: 1px solid red;*/
+				background: url(img/logo.2.png) no-repeat;
+				background-size: 65% 110px;
+				
+			}
+			.login{
+			
+				width: 300px;
+				height: 270px;
+				/*border: 1px solid yellow;*/
+				margin-top: 250px;
+				position: relative;
+				float: right;
+    			margin-right: 15%;
+			}
+			.userInfo{
+				height: 39px;
+				width: 290px;
+				border: 1px solid #0090FF;
+				background: none;
+				margin-bottom: 20px;
+				font-size: 16px;
+			    padding-left: 7px;
+			    color: #FFFFFF;
+			    border-radius: 3px;
+			}
+			.loginBtn{
+				display: block;
+			    height: 28px;
+			    width: 299px;
+			    border-radius: 5px;
+			    background: #0090FF;
+			    outline: none;
+			    border: none;
+			    color: #FFFFFF;
+			    cursor: pointer;
+			    text-decoration: none;
+			    text-align: center;
+			    padding-top: 10px;
+			}
+			::-webkit-input-placeholder { /* WebKit browsers */
+			    color:    #FFFFFF;
+			}
+			:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			    color:    #FFFFFF;
+			}
+			::-moz-placeholder { /* Mozilla Firefox 19+ */
+			    color:    #FFFFFF;
+			}
+			:-ms-input-placeholder { /* Internet Explorer 10+ */
+			    color:    #FFFFFF;
+			}
+			.images{
+				    float: left;
+				    margin-left: 10%;
+				    background: url(img/linda.png) no-repeat;
+				    /* border: 1px solid red; */
+				    height: 400px;
+				    width: 660px;
+				    margin-top:145px;
+				    background-size: 550px;
+			}
+			.wrapper-content{
+				height: 660px;
+				width: 100%;
+				background: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="loginTop"></div>
+		<div class="wrapper-content">
+			<div class="images"></div>
+			<div class="login">
+			<form action="/SchoolNewsSystem/login" method="post">
+				<input type="text" class="userInfo" name="username" placeholder="请输入用户名"/>
+				<input type="password" class="userInfo" name="password" placeholder="请输入密码"/>
+				<input type="submit" value="登陆" class="loginBtn" />
+			</form>	
+			</div>
+		</div>
+	</body>
+</html>

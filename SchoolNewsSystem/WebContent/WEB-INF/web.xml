@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SchoolNewsSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- <servlet>
+    <description></description>
+    <display-name>showNewsServlet</display-name>
+    <servlet-name>showNewsServlet</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showNewsServlet</servlet-name>
+    <url-pattern>/showNews</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RemoveNewsServlet</display-name>
+    <servlet-name>RemoveNewsServlet</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.RemoveNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveNewsServlet</servlet-name>
+    <url-pattern>/removeNews</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AddnewsServlet</display-name>
+    <servlet-name>AddnewsServlet</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.AddnewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddnewsServlet</servlet-name>
+    <url-pattern>/addnews</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>EditNewsServlet</display-name>
+    <servlet-name>EditNewsServlet</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.EditNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditNewsServlet</servlet-name>
+    <url-pattern>/editNews</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>showType1News</display-name>
+    <servlet-name>showType1News</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowType1News</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showType1News</servlet-name>
+    <url-pattern>/showType1News</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>showNewsContent</display-name>
+    <servlet-name>showNewsContent</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowNewsContent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showNewsContent</servlet-name>
+    <url-pattern>/showNewsContent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>showTypeNews</display-name>
+    <servlet-name>showTypeNews</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowTypeNews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showTypeNews</servlet-name>
+    <url-pattern>/showTypeNews</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>showType2News</display-name>
+    <servlet-name>showType2News</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowType2News</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showType2News</servlet-name>
+    <url-pattern>/showType2News</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ShowType3News</display-name>
+    <servlet-name>ShowType3News</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowType3News</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowType3News</servlet-name>
+    <url-pattern>/showType3News</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ShowType4News</display-name>
+    <servlet-name>ShowType4News</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.ShowType4News</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowType4News</servlet-name>
+    <url-pattern>/showType4News</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>RequestType</display-name>
+    <servlet-name>RequestType</servlet-name>
+    <servlet-class>com.xzy.sns.news.servlet.RequestType</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestType</servlet-name>
+    <url-pattern>/requestType</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ShowManager</display-name>
+    <servlet-name>ShowManager</servlet-name>
+    <servlet-class>com.xzy.sys.manager.servlet.ShowManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowManager</servlet-name>
+    <url-pattern>/showManager</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RemoveManagerServlet</display-name>
+    <servlet-name>RemoveManagerServlet</servlet-name>
+    <servlet-class>com.xzy.sys.manager.servlet.RemoveManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveManagerServlet</servlet-name>
+    <url-pattern>/removeManager</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AddManagerSevlet</display-name>
+    <servlet-name>AddManagerSevlet</servlet-name>
+    <servlet-class>com.xzy.sys.manager.servlet.AddManagerSevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddManagerSevlet</servlet-name>
+    <url-pattern>/addManager</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.xzy.sys.manager.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ModifyAccountServlet</display-name>
+    <servlet-name>ModifyAccountServlet</servlet-name>
+    <servlet-class>com.xzy.sys.manager.servlet.ModifyAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyAccountServlet</servlet-name>
+    <url-pattern>/modifyAccount</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+    <display-name>ManagerFilter</display-name>
+    <filter-name>ManagerFilter</filter-name>
+    <filter-class>com.xzy.sns.filter.ManagerFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ManagerFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping> -->
+</web-app>

@@ -1,0 +1,28 @@
+.paging{
+			width: 500px;
+			height: 40px;
+			/*border: 1px solid red;*/
+		}
+		.paging .padeUl{
+			padding: 0;
+			margin: 0;
+		}
+		.paging .padeUl li{
+			list-style: none;
+			float: left;
+			display: inline-block;
+			width: 40px;
+			height: 35px;
+			border: 1px solid #999;
+			text-align: center;
+			padding-top: 5px;
+			cursor: pointer;
+			margin-left: 5px;
+			color: #FFFFFF;
+		}
+		.paging .padeUl li a{
+			text-decoration: none;
+			padding-top: 5px;
+		}.paging .padeUl li:hover{
+			color: #0090FF;
+		}
